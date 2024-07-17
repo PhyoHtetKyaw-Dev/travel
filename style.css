@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url("https://images.unsplash.com/photo-1718116088537-212b192d1ad9?q=80&w=2075&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+   
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+}
+header .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+.navbar a {
+    color: rgb(9, 0, 0);
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 80px;
+}
+.navbar .menu-links {
+    display: flex;
+    gap: 60px;
+}
+.navbar ul li {
+    list-style: none;
+}
+.navbar a:hover {
+    color: aqua;
+}
+.hero-section {
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    padding: 0 60px;
+}
+.hero-section .contact {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    padding-top: 200px;
+    padding-right: 400px;
+}
+
+.hero-section .contact h1 {
+    color: rgb(16, 1, 1);
+    font-size: 2.5rem;
+}
+.hero-section .contact p {
+    color: black;
+    font-size: 1.5rem;
+}
+.hero-section .contact button {
+    margin-top: 30px;
+    margin-right:300px;
+    outline: none;
+    border: none;
+    padding: 10px 20px;
+    color: rgb(6, 0, 0);
+    border-radius: 30px;
+    cursor: pointer;
+}
+.hero-section .contact button:hover {
+    color: white;
+    background-color: aqua;
+}
